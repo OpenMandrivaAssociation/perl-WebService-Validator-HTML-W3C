@@ -11,9 +11,11 @@ Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/WebService/%{upstream_name}-%{upstream_version}.tar.gz
 
-
+BuildRequires: perl(Class::Accessor)
+BuildRequires: perl(LWP)
+BuildRequires: perl(XML::XPath)
 BuildArch: noarch
-BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
 %description
 WebService::Validator::HTML::W3C provides access to the W3C's online Markup
