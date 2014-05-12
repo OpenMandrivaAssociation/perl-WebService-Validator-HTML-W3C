@@ -1,2 +1,4 @@
+removed_sources:
+  WebService-Validator-HTML-W3C-0.26.tar.gz: f6a1a4807a8c6916508d12352afdd9858ab88ead
 sources:
-  "WebService-Validator-HTML-W3C-0.26.tar.gz": f6a1a4807a8c6916508d12352afdd9858ab88ead
+  WebService-Validator-HTML-W3C-0.28.tar.gz: 189ca66e79adbc654f882bbb282128328a95e96e
